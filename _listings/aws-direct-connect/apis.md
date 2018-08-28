@@ -18,11 +18,89 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Private Virtual Interfaces
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Direct Connect API - Allocate Private Virtual Interface
+  x-api-slug: actionallocateprivatevirtualinterface-get
+  description: Provisions a private virtual interface to be owned by a different customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actionallocateprivatevirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Allocate Public Virtual Interface
+  x-api-slug: actionallocatepublicvirtualinterface-get
+  description: Provisions a public virtual interface to be owned by a different customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actionallocatepublicvirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Confirm Private Virtual Interface
+  x-api-slug: actionconfirmprivatevirtualinterface-get
+  description: Accept ownership of a private virtual interface created by another
+    customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actionconfirmprivatevirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Confirm Public Virtual Interface
+  x-api-slug: actionconfirmpublicvirtualinterface-get
+  description: Accept ownership of a public virtual interface created by another customer.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actionconfirmpublicvirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Create Private Virtual Interface
+  x-api-slug: actioncreateprivatevirtualinterface-get
+  description: Creates a new private virtual interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actioncreateprivatevirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Create Public Virtual Interface
+  x-api-slug: actioncreatepublicvirtualinterface-get
+  description: Creates a new public virtual interface.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actioncreatepublicvirtualinterface-get-openapi.md
+- name: AWS Direct Connect API - Describe Virtual Interfaces
+  x-api-slug: actiondescribevirtualinterfaces-get
+  description: Displays all virtual interfaces for an AWS account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AWSDirectConnect.png
+  humanURL: https://aws.amazon.com/directconnect/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API, Networks
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/private-virtual-interfaces/master/_listings/aws-direct-connect/actiondescribevirtualinterfaces-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.device.farm.api.gallery.streamdata.io

@@ -1,9 +1,12 @@
+---
 swagger: "2.0"
 x-collection-name: AWS Direct Connect
-x-complete: 1
+x-complete: 0
 info:
-  title: AWS Direct Connect API
+  title: AWS Direct Connect API Confirm Private Virtual Interface
   version: 1.0.0
+  description: Accept ownership of a private virtual interface created by another
+    customer.
 schemes:
 - http
 produces:
@@ -84,81 +87,17 @@ paths:
           description: OK
       tags:
       - Private Virtual Interfaces
-  /?Action=ConfirmPublicVirtualInterface:
-    get:
-      summary: Confirm Public Virtual Interface
-      description: Accept ownership of a public virtual interface created by another
-        customer.
-      operationId: confirmPublicVirtualInterface
-      x-api-path-slug: actionconfirmpublicvirtualinterface-get
-      parameters:
-      - in: query
-        name: virtualInterfaceId
-        description: ID of the virtual interface
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Private Virtual Interfaces
-  /?Action=CreatePrivateVirtualInterface:
-    get:
-      summary: Create Private Virtual Interface
-      description: Creates a new private virtual interface.
-      operationId: createPrivateVirtualInterface
-      x-api-path-slug: actioncreateprivatevirtualinterface-get
-      parameters:
-      - in: query
-        name: connectionId
-        description: ID of the connection
-        type: string
-      - in: query
-        name: newPrivateVirtualInterface
-        description: Detailed information for the private virtual interface to be
-          created
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Private Virtual Interfaces
-  /?Action=CreatePublicVirtualInterface:
-    get:
-      summary: Create Public Virtual Interface
-      description: Creates a new public virtual interface.
-      operationId: createPublicVirtualInterface
-      x-api-path-slug: actioncreatepublicvirtualinterface-get
-      parameters:
-      - in: query
-        name: connectionId
-        description: ID of the connection
-        type: string
-      - in: query
-        name: newPublicVirtualInterface
-        description: Detailed information for the public virtual interface to be created
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Private Virtual Interfaces
-  /?Action=DescribeVirtualInterfaces:
-    get:
-      summary: Describe Virtual Interfaces
-      description: Displays all virtual interfaces for an AWS account.
-      operationId: describeVirtualInterfaces
-      x-api-path-slug: actiondescribevirtualinterfaces-get
-      parameters:
-      - in: query
-        name: connectionId
-        description: ID of the connection
-        type: string
-      - in: query
-        name: virtualInterfaceId
-        description: ID of the virtual interface
-        type: string
-      responses:
-        200:
-          description: OK
-      tags:
-      - Private Virtual Interfaces
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
